@@ -68,6 +68,14 @@ INSERT INTO employee VALUES (
     '남자',
     '1000'
 );
+INSERT INTO employee VALUES (
+    106,
+    '이해',
+    2500000,
+    sysdate,
+    '남자',
+    '1000'
+);
 
 -- 사원 자료 검색
 SELECT

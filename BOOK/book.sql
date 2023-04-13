@@ -168,3 +168,5 @@ FROM book;
 SELECT bookname
 FROM book
 WHERE price = (SELECT MAX(price) FROM book);
+
+COMMIT;
