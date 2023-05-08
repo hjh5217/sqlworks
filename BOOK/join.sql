@@ -154,3 +154,5 @@ WHERE custname='±è¿¬¾Æ';
 SELECT *
 FROM orders
 WHERE custid = (SELECT custid FROM customer WHERE custname='±è¿¬¾Æ');
+
+COMMIT;
